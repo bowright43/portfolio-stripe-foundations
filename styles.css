@@ -12,3 +12,13 @@ a {
 a:hover {
     color: #fbff1c;
 }
+
+ul {
+    list-style-type: none;
+    background-color: #333333;
+  }
+
+  li {
+      display: inline;
+      padding: 16px;
+  }
