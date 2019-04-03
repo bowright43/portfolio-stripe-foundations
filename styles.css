@@ -1,3 +1,9 @@
+title {
+    padding: 43px;
+    margin: 43px;
+    text-indent: 43px;
+}
+
 body {
     background: #000000;
     color: #ffffff;
@@ -6,6 +12,9 @@ body {
 
 a {
     color: #129e00;
+    text-decoration: none;
+    text-align: right;
+    margin: 20px;
 
 }
 
@@ -16,9 +25,25 @@ a:hover {
 ul {
     list-style-type: none;
     background-color: #333333;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
   }
 
   li {
       display: inline;
-      padding: 16px;
+      padding: 20px;
+      font-size: 24px;
+      
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .title {
+      margin-left: 4em;
   }
