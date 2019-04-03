@@ -3,3 +3,12 @@ body {
     color: #ffffff;
 
 }
+
+a {
+    color: #129e00;
+
+}
+
+a:hover {
+    color: #fbff1c;
+}
